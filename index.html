@@ -1,12 +1,58 @@
-<link href="https:fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
-<style> 
-body{
-    font-family: "Architects Daughter", cursive;
-    text-align: center;
-}
-</style>
-<body>
-    <p>
-        Test
-    </p>
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="UTF-8">
+        <title>Border</title>
+        <style>
+    .B{
+        width:300px;
+        border-style: solid;
+        border-color: rgb(119, 139, 255);
+        border-width: 15px;
+        border-radius: 15px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        object-fit: cover;
+        object-position: right 0px;
+        box-shadow: rgb(135, 135, 254) 20px 20px 40px;
+        float: left;
+    }
+    .A{
+        width:300px;
+        border-style: solid;
+        border-color: rgb(119, 139, 255);
+        border-width: 15px;
+        border-radius: 15px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        object-fit: cover;
+        object-position: right 0px;
+        box-shadow: rgb(135, 135, 254) 4px 4px 4px, orange 8px 8px 4px, yellow 12px 12px 4px, green 16px 16px 4px, blue 20px 20px 4px, indigo 24px 24px 4px, purple 28px 28px 4px ;
+        float: left;
+        filter:contrast(200%);
+        filter:invert(200%);
+    }
+    
+    </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+            <td>
+    <img class="A" src="/Users/eskilgronevik/Documents/OneDrive - Viken fylkeskommune/VGS 2 filer/IT 1/Proggrammering IT/VS code/Images/capybara-1.jpg">
+            </td>  
+            <td>
+    <img class="B" src="/Users/eskilgronevik/Documents/OneDrive - Viken fylkeskommune/VGS 2 filer/IT 1/Proggrammering IT/VS code/Images/capybara-2.jpeg">
+            </td>
+            </tr>
+            <tr>
+            <td>
+    <img class="B" src="/Users/eskilgronevik/Documents/OneDrive - Viken fylkeskommune/VGS 2 filer/IT 1/Proggrammering IT/VS code/Images/capybara-3.jpeg">
+            </td>
+            <td>
+    <img class="B" src="/Users/eskilgronevik/Documents/OneDrive - Viken fylkeskommune/VGS 2 filer/IT 1/Proggrammering IT/VS code/Images/capybara-4.jpeg">
+            </td>
+            </tr>
+</table>
 </body>
+</html>
